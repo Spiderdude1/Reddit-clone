@@ -11,7 +11,7 @@ export default {
     dbName: 'lireddit',
     user: 'postgres',
     password: 'zaki',
-    type: 'postgresql',
+    type: 'postgresql', 
     debug: !_prod_,
     allowGlobalContext: true
 } as Parameters<typeof MikroORM.init> [0];
